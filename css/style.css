@@ -1,4 +1,4 @@
-body
+body {
   font-size: 14px;
 }
 
@@ -8,6 +8,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
 
 section {
