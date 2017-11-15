@@ -37,16 +37,16 @@ h3 {
   width: 100%; 
 }
 
-.red h3 {
-	color: red;
+.red {
+	background-color: red;
 }
 
-.orange h3 {
-	color: orange;
+.orange {
+	background-color: orange;
 }
 
-.yellow h3 {
-	color: yellow;
+.yellow {
+	background-color: yellow;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
