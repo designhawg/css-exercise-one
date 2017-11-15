@@ -36,7 +36,19 @@ h3 {
   margin 10px 0;
   width: 100%; 
 }
-	  
+
+.red h3 {
+	color: red;
+}
+
+.orange h3 {
+	color: orange;
+}
+
+.yellow h3 {
+	color: yellow;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
