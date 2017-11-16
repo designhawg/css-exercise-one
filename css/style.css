@@ -49,13 +49,13 @@ body {
 }
 /*added bracket*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
 }
-/*added bracket*/
+/*added bracket, dash to background-color*/
 
 section {
   margin: 0 auto;
@@ -75,12 +75,14 @@ example, h3 {
 }
 /*added : and ; and moved font-size to h3*/
 
-.element {
+.element2 {
   background-color: green;
   height: 100px;
   margin: 10px 0;
   width: 100%;
-  /*added : to margin*/
+}
+  /*added : to margin added element2}*/
+
 
   .element {
     background-color: orange;
