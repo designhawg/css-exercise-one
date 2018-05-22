@@ -10,8 +10,9 @@ nav {
   width: 100%;
 }
 
+
 section {
-  margin: 0 auto;
+  margin: 0;
   width: 60%;
 }
 
@@ -35,8 +36,21 @@ h3 {
   margin: 10px;
   width: 100%;
 }
+.element1 {
+  background-color: purple;
+  height: 100px;
+  margin: 10px;
+  width: 100%;
+}
 
-.element-different-big {
+.element2 {
+  background-color: purple;
+  height: 100px;
+  margin: 10px;
+  width: 100%;
+}
+
+.element3 {
   background-color: purple;
   height: 100px;
   margin: 10px;
