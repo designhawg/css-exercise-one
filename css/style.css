@@ -1,20 +1,20 @@
-body
+body{
   font-size: 14px;
 }
-
+/*ALL NAV*/
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/*Heading Families*/
 h1 {
   font-family sans-serif;
   font-size: 2em;
@@ -28,6 +28,7 @@ h1 {
 h3 {
   font-size: 1.3em;
 }
+/*End heading families*/
 
 .element {
   background-color: green;
