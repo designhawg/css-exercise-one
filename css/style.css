@@ -1,36 +1,41 @@
-body
-  font-size: 14px;
+body {
+  font-size: 14px; /*0.875em */
 }
 
-nav {
-  background color: yellow;
+nav {/*Nav bar that spans across the screen*/
+  background-color: yellow; /*rgb # */
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
 }
 
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
+h1 {/*Heading within the nav*/
+  font-family: sans-serif;
+  font-size: 2em; /*32px */
 }
 
 .example, h3 {
-  padding-top: 30px;
-  text-align center
+  padding-top: 30px; /*1.875em */
+  text-align: center;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.3em; /*20px*/
 }
 
-.element {
-  background-color: green;
+.element {/*All of the elements*/
+  background-color: green;/*rgb #*/
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+
+ .element:nth-last-child(-n+3) { /*Last three elements within div*/
+    background-color: blue; /*rgb #*/
+}
