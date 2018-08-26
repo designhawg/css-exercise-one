@@ -1,6 +1,8 @@
-body
+body {
   font-size: 14px;
 }
+
+/* here the nav selector of background-color seems to have an error because I do not see the yellow background on the webpage. How come?*/
 
 nav {
   background color: yellow;
@@ -8,7 +10,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+  }
 
 section {
   margin: 0 auto;
@@ -16,21 +18,30 @@ section {
 }
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/* here I am confused by the word example. Why is this here? */
+
 .example, h3 {
   padding-top: 30px;
-  text-align center
-}
-
-h3 {
-  font-size: 1.3em;
+  text-align: center;
+  font-size:1.3em;
 }
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
+  }
+
+/* the following are the last 3 div elements on the page */
+
+.element2 {
+    background-color: blue;
+    height: 100px;
+    margin: 10px;
+    width: 100%;
+    }
