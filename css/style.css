@@ -54,18 +54,18 @@ body {
 }
 
 nav {
-  background-color: none;
+  background-color: gray;
   height: 100px;
-  margin-top: -10px;
+  margin-top: 0px;
   position: fixed;
   width: 100%;
-  padding-top: -10px;
 }
 
 
 section {
   margin: 0 auto;
   width: 60%;
+	padding-top: 100px
 }
 
 h1 {
