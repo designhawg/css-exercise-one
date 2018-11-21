@@ -1,14 +1,14 @@
-body
+body {
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow; /*added a - */
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -16,21 +16,25 @@ section {
 }
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif; /*added a colon*/
   font-size: 2em;
 }
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
+ /* missing h2 */
 
 h3 {
   font-size: 1.3em;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.example {
+  padding-top: 30px;
+  text-align: center;
 }
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
