@@ -1,36 +1,58 @@
-body
+/* Sets up the font-size throughout the document */
+
+body {
   font-size: 14px;
 }
 
+/* Formats the nav element */
+
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
+/* Sets up the width of section element and centers div containers */
 
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* Formats the heading in the nav element */
+
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/* Centers text and add 30px padding to top */
+
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
+
+/* Sets up size of h3 */
 
 h3 {
   font-size: 1.3em;
 }
 
-.element {
+/* Changed .element to div in order to format all divs. */
+
+div {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* Changed the last three divs to class name element2 and added the following
+class to change just them. */
+
+.element2 {
+  background-color: rgb(255, 0, 0);
+}
