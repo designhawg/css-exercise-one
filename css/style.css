@@ -2,35 +2,52 @@ body
   font-size: 14px;
 }
 
+/**** NAVIGATION****/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
 
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/**** HEADERS ****/  
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
 }
 
 h3 {
   font-size: 1.3em;
+  padding-top: 30px;
+  text-align: center;
 }
 
-.element {
+.example {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/**** ELEMENTS ****/
+.element1 {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+.element2 {
+  background-color: blue;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
+.element3 {
+  background-color: orange;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
