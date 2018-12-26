@@ -1,36 +1,48 @@
-body
+body {
   font-size: 14px;
 }
 
+/**** NAVIGATION****/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/**** HEADERS ****/  
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
 }
 
 h3 {
   font-size: 1.3em;
 }
 
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/**** ELEMENTS ****/
+
 .element {
-  background-color: green;
+  background-color: red;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+    
+.element2 {
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
