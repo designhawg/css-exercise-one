@@ -1,4 +1,4 @@
-body
+body {
   font-size: 14px;
 }
 
@@ -25,11 +25,9 @@ h1 {
 
 h3 {
   font-size: 1.3em;
-  padding-top: 30px;
-  text-align: center;
 }
 
-.example {
+.example, h3 {
   padding-top: 30px;
   text-align: center;
 }
@@ -39,25 +37,25 @@ h3 {
 .element {
   background-color: white;
   height: 100px;
-  margin: 10px;
+  margin: 10px 0;
   width: 100%;
 }
     
 .element1 {
   background-color: red;
   height: 100px;
-  margin: 10px;
+  margin: 10px 0;
   width: 100%;
 }
 .element2 {
   background-color: green;
   height: 100px;
-  margin: 10px;
+  margin: 10px 0;
   width: 100%;
 }
 .element3 {
   background-color: blue;
   height: 100px;
-  margin: 10px;
+  margin: 10px 0;
   width: 100%;
 }
