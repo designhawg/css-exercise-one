@@ -35,21 +35,29 @@ h3 {
 }
 
 /**** ELEMENTS ****/
+
+.element {
+  background-color: white;
+  height: 100px;
+  margin: 10px;
+  width: 100%;
+}
+    
 .element1 {
   background-color: red;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
 }
 .element2 {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
 }
 .element3 {
   background-color: blue;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
 }
