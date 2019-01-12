@@ -1,36 +1,53 @@
-body
+
+/* Document font-size will be 14px */
+body {
   font-size: 14px;
 }
 
+/* Formats nav element */
 nav {
-  background color: yellow;
-  height: 100px;
+  background-color: yellow;
+  height: 80px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* Sets up section element width? */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+
+/* Sets up h1 font-size? */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/* Adds 30px of padding and center aligns text */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/* Makes h3 font-size 1.3em */
 h3 {
   font-size: 1.3em;
 }
 
-.element {
+/* Change element to div */
+
+div {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* change to element 2 to overwrite div */
+
+.element2 {
+  background-color: pink
+}
