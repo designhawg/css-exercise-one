@@ -37,6 +37,11 @@ h3 {
   width: 100%;
 }
 
+/*
+Added pink background by changing the class for the last
+three elements to ".elementary"
+ */
+
 .elementary {
   background-color: pink;
   height: 100px;
