@@ -1,36 +1,38 @@
-body
+body {
   font-size: 14px;
 }
 
+/* navigation section elements */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
-section {
-  margin: 0 auto;
-  width: 60%;
 }
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
-}
-
-.example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
-h3 {
+/* main section elements */
+section {
+  margin: 0 auto;
+  width: 60%;
   font-size: 1.3em;
 }
 
-.element {
+div {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0px;
   width: 100%;
+}
+
+/* background-color changed for last three div sections */
+div.alternate {
+  background-color: pink;
+}
