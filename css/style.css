@@ -22,7 +22,7 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align center;
+  text-align: center;
 }
 
 h3 {
@@ -40,7 +40,5 @@ h3 {
 .element1 {
   background-color: black;
   color: white;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
+
 }
