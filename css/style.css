@@ -8,16 +8,20 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
-section {
-  margin: 0 auto;
-  width: 60%;
 }
 
 h1 {
   font-family sans-serif;
-  font-size: 2em;
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+section {
+  margin: 0 auto;
+  width: 60%;
 }
 
 .example, h3 {
@@ -25,12 +29,23 @@ h1 {
   text-align center
 }
 
-h3 {
-  font-size: 1.3em;
+/****** New changes******/
+div {
+  background-color: green;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
 }
+
+div.element {
+  background-color: pink;
+}
+
+/* original CSS
 
 .element {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+*/
