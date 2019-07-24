@@ -23,17 +23,23 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align: center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
-  background-color: coral;
 }
 
 .element {
-  background-color: coral;
   height: 100px;
   margin: 10px 0;
   width: 100%;
+  background-color: coral;
+}
+
+.element2 {
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: blue;
 }
