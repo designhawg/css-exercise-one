@@ -21,7 +21,7 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
+.example, h3, .element, elementtwo {
   padding-top: 30px;
   text-align: center;
 }
@@ -37,7 +37,8 @@ h3 {
   background-color: coral;
 }
 
-.element2 {
+/**** last three lines ****/
+.elementtwo {
   height: 100px;
   margin: 10px 0;
   width: 100%;
