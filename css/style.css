@@ -21,19 +21,26 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
+.example, h3, .element, elementtwo {
   padding-top: 30px;
-  text-align: center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
-  background-color: coral;
 }
 
 .element {
-  background-color: coral;
   height: 100px;
   margin: 10px 0;
   width: 100%;
+  background-color: #ec762a;
+}
+
+/**** last three lines ****/
+.elementtwo {
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #2f4aff;
 }
