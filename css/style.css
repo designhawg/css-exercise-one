@@ -34,3 +34,29 @@ h3 {
   height: 100px;
   margin 10px 0;
   width: 100%;
+
+  /**** lower three divs ****/
+
+  form {
+  /* display: flex; */
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+.element new-div-4 {
+  background-color: purple;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+
+.element new-div-5 {
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+
+.element new-div-6 {
+  background-color: yellow;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
