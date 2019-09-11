@@ -1,15 +1,18 @@
-body
+/* General Styles */
+body {
   font-size: 14px;
 }
 
+/* Navigation */
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* Content Styles*/
 section {
   margin: 0 auto;
   width: 60%;
@@ -34,3 +37,12 @@ h3 {
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+
+.feature {
+  background-color: purple;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
+/* Footer */
