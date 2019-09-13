@@ -1,4 +1,4 @@
-body
+body{
   font-size: 14px;
 }
 
@@ -8,7 +8,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -26,37 +26,44 @@ h1 {
 }
 
 h3 {
+  color: black;
   font-size: 1.3em;
+  padding-top: 30px;
+  text-align center
 }
 
-.element {
-  background-color: green;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
+ /**** lower three divs ****/
 
-  /**** lower three divs ****/
-
-  form {
+form {
   /* display: flex; */
     flex-flow: column nowrap;
     align-items: center;
   }
 
-.element new-div-4 {
+.element1 {
+  background-color: green;
+  height: 65px;
+  margin 100px 0;
+  width: 100%;
+  }
+
+.element2 {
   background-color: purple;
-  height: 100px;
-  margin 10px 0;
+  height: 65px;
+  margin 100px 0;
   width: 100%;
+  }
 
-.element new-div-5 {
-  background-color: blue;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
-
-.element new-div-6 {
+.element3 {
   background-color: yellow;
-  height: 100px;
-  margin 10px 0;
+  height: 65px;
+  margin 100px 0;
   width: 100%;
+  }
+
+.element4 {
+  background-color: blue;
+  height: 65px;
+  margin 100px 0;
+  width: 100%;
+  }
