@@ -1,4 +1,4 @@
-body{
+body {
   font-size: 14px;
 }
 
@@ -11,9 +11,16 @@ nav {
 }
 
 section {
-  margin: 0 auto;
+  margin: auto;
   width: 60%;
 }
+
+.class {
+  bacground-color: green;
+  height: 65px;
+  margin: 100px 0;
+  width: 100%;
+  }
 
 h1 {
   font-family sans-serif;
@@ -22,14 +29,13 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: left;
 }
 
 h3 {
-  color: black;
   font-size: 1.3em;
   padding-top: 30px;
-  text-align center
+  text-align: left;
 }
 
  /**** lower three divs ****/
@@ -40,30 +46,14 @@ form {
     align-items: center;
   }
 
-.element1 {
-  background-color: green;
-  height: 65px;
-  margin 100px 0;
-  width: 100%;
-  }
-
-.element2 {
+.purple {
   background-color: purple;
-  height: 65px;
-  margin 100px 0;
-  width: 100%;
-  }
+}
 
-.element3 {
+.yellow {
   background-color: yellow;
-  height: 65px;
-  margin 100px 0;
-  width: 100%;
-  }
+}
 
-.element4 {
+.blue {
   background-color: blue;
-  height: 65px;
-  margin 100px 0;
-  width: 100%;
-  }
+}
