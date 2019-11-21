@@ -22,7 +22,7 @@ h1 {
 /*this is text for a div element*/
 .example, h3 {
   padding-top: 30px;
-  text-align: center
+  text-align:center;
 }
 
 h3 {
@@ -32,6 +32,13 @@ h3 {
 .element {
   background-color: blue;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+.changecolor {
+  background-color: teal;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%
 }
