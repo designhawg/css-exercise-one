@@ -30,7 +30,7 @@ h3 {
   font-size: 1.3em;
 }
 
-.element {
+.element, .element1, .element2, .element3 {
   background-color: green;
   height: 100px;
   margin: 10px 0;
@@ -41,21 +41,12 @@ h3 {
 
 .element1 {
   background-color: blue;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
 }
 
 .element2 {
   background-color: yellow;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
 }
 
 .element3 {
   background-color: orange;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
 }
