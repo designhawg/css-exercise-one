@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -13,12 +13,12 @@ nav {
 section {
   margin: 0 auto;
   width: 60%;
+  padding-top: 8%;
 }
 
 h1 {
   font-family: sans-serif;
   font-size: 2em;
-  width: 100%;
 }
 
 .example, h3 {
@@ -34,17 +34,16 @@ h3 {
   background-color: green;
   height: 100px;
   margin: 10px 0;
-  width: 100%;
 }
 
-/* elements changed colors */
+/* adjust nav background colors */
 
 .element1 {
   background-color: blue;
 }
 
 .element2 {
-  background-color: yellow;
+  background-color: purple;
 }
 
 .element3 {
