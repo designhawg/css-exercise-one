@@ -1,36 +1,42 @@
-body
+body { /***Added missing opening curly bracket ***/
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
-  height: 100px;
+  background-color: yellow; /*** Added missing "-" in background-color ***/
   margin-top: -10px;
   position: fixed;
-  width: 100%;
-
+  height: 100px; /** Added height **/
+  width: 100%; /** Added width **/
+} /** Added missing curly bracket **/
 
 section {
   margin: 0 auto;
   width: 60%;
 }
 
-h1 {
-  font-family sans-serif;
+.header /*** Added .header ***/ h1 {
+  font-family: sans-serif; /*** Added colon after font-family***/
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center; /** Added missing colon (:) and and semi-colon **/
 }
 
 h3 {
   font-size: 1.3em;
 }
+  
+.element { 
+  margin: 10px 0; /** Added missing colon (:) **/  
+  height: 100px; /** Added height **/
+  width: 100%; /** Added width **/
+} /** Added missing curly bracket **/
 
-.element {
-  background-color: green;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
+.feature {/** Removed reference to div in this code **/
+  .element { /** NEW added .element to correspond with edits made in the HTML/Index file **/
+    background-color: #141FC8; /** NEW Added background color for divs **/
+  } 
+}
