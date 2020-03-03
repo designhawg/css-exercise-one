@@ -1,18 +1,20 @@
-body
+body{
   font-size: 14px;
 }
-
+/* define nav bar*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
-  margin-top: -10px;
+  margin-top: 10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* div element section */
 section {
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
+  padding-top: 110px;
 }
 
 h1 {
@@ -21,8 +23,8 @@ h1 {
 }
 
 .example, h3 {
-  padding-top: 30px;
-  text-align center
+  padding-top: 40px;
+  text-align:center;
 }
 
 h3 {
@@ -32,5 +34,13 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/* change last 3 background to pink */
+.element1 {
+  background-color: pink;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
