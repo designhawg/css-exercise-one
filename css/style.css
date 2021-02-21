@@ -1,36 +1,40 @@
-body
-  font-size: 14px;
+body {font-size: 14px;
 }
-
+/*h1 font definitions*/
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+/*.example and h3 placement definitions*/
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+/*he font definitions*/
+h3 {
+  font-size: 1.3em;
+}
+/*element style definitions*/
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px; 0;
+  width: 100%;
+}
+/*last three div elements in index.html*/
+.element.last {
+  background-color: blue;
+}
+/*nav style definitions*/
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
+/*section definitions*/
 section {
-  margin: 0 auto;
+  margin: 0; auto;
   width: 60%;
 }
-
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
-h3 {
-  font-size: 1.3em;
-}
-
-.element {
-  background-color: green;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
